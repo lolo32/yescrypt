@@ -1,0 +1,18 @@
+{
+  "name": "yescrypt",
+  "version": "0.8.1",
+  "description": "Non-C Implementations of the yescrypt KDF.",
+  "main": "javascript/yescrypt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defuse/yescrypt.git"
+  },
+  "keywords": [
+    "yescrypt"
+  ],
+  "author": "defuse",
+  "homepage": "https://github.com/defuse/yescrypt#readme"
+}

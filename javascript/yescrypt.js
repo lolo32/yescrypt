@@ -1,6 +1,8 @@
 // Requires the Stanford Javascript Cryptography Library (SJCL)
 // https://bitwiseshiftleft.github.io/sjcl/
 
+var sjcl = sjcj || require('sjcl');
+
 yescrypt = {};
 
 yescrypt.PWXSIMPLE = 2;
@@ -610,4 +612,13 @@ yescrypt.assert = function (truth_value, message) {
     if (!truth_value) {
         throw 'Assertion failed. Message: ' + message;
     }
+}
+
+if(typeof module !== 'undefined' && module.exports){
+  module.exports = yescrypt;
+}
+if (typeof define === "function") {
+    define([], function () {
+        return yescrypt;
+    });
 }
