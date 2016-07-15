@@ -1,7 +1,7 @@
 // Requires the Stanford Javascript Cryptography Library (SJCL)
 // https://bitwiseshiftleft.github.io/sjcl/
 
-var sjcl = sjcj || require('sjcl');
+var sjcl = sjcl || require('sjcl');
 
 yescrypt = {};
 
